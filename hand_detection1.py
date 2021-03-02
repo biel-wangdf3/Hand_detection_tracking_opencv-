@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from sklearn.metrics import pairwise
+import torch
 
 cap = cv2.VideoCapture(0)
 kernelOpen = np.ones((5,5))#if jiggers are present other than yellow area
