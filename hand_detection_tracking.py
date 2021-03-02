@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import wx
 from pynput.mouse import Button, Controller
+import torch
 
 mouse = Controller()
 
